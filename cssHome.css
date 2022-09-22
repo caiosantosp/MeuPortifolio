@@ -1,0 +1,175 @@
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+/*Geral*/
+.classTitulosTelainicial {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: red;
+}
+
+
+
+/*----------*/
+/*Tela de inicio*/
+#idTelaInicial {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(88, 44, 129);
+    color: rgb(255, 255, 255);
+}
+
+#IdMeuNomeDaTelaInicial {
+    font-size: 400%;
+}
+
+.classTextTelaInicial {
+    font-size: 100%;
+}
+
+
+
+/*----------*/
+/*Tela quem sou eu*/
+#idDivDeQuemSou {
+    height: 40vh;
+}
+
+#idQuemSouEuTelaInicial {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.classLeftDiv {
+    width: 20%;
+    display: inline-block;
+    height: 100%;
+}
+
+.classRightDiv {
+    width: 75%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    height: 100%;
+}
+
+.classLeftDiv img {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*----------*/
+/*Tela habilidades*/
+#idHabilidadesTelaInicial {
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.classBoxDeHabilidades {
+    background-color: rgb(88, 44, 129);
+    border: solid;
+    border-width: 2px;
+    height: 35vh;
+    border-radius: 10%;
+    margin: 0rem 0.25rem 0rem 0.25rem;
+    color: white;
+}
+
+.classBoxDeHabilidades:hover {
+    transition: 400ms ease-in-out;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 1);
+}
+
+.classBoxDeHabilidadesImages {
+    width: 65%;
+}
+
+.classBoxDeHabilidadesImages:hover {
+    transition: 400ms ease-in-out;
+    width: 75%;
+}
+
+
+
+/*----------*/
+/*Projetos*/
+#IdProjetosTelaInicial {
+    height: 100%;
+    margin-bottom: 10vh;
+}
+
+.classBoxDeProjetosTitulo {
+    font-size: 2.5rem;
+    font-weight: 550;
+}
+
+.classDescricaoDosProjetos {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.classBoxDeProjetosImages {
+    width: 80%;
+    border-radius: 5%;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(88, 44, 129);
+
+}
+
+.classBoxDeProjetos {
+    width: 70%;
+    margin: 1%;
+    position: relative;
+    background: #fff;
+    background-clip: padding-box;
+    border: solid 8px transparent;
+    border-radius: 10%;
+}
+
+.classBoxDeProjetos:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -6px;
+    border-radius: inherit;
+    background: linear-gradient(to left, rgb(139, 67, 153), rgb(177, 42, 230));
+}
+
+/*----------*/
+/*Contato*/
+.classBoxContato {
+    width: 20%;
+}
+
+.classBoxContatoImages {
+    width: 3.5rem;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.linkDeContato {
+    color: red !important;
+    font-size: 1rem !important;
+}
